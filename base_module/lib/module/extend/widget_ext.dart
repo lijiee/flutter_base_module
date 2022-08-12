@@ -1,6 +1,12 @@
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+///***********************************************///
+/// Name:      WidgetExt
+/// Desc:      扩展
+/// Author:    lijiee
+/// Date:      2022/8/12 14:10
+///**********************************************///
 
 extension WidgetExt on Widget{
   List<Widget> addNext(Widget widget) {

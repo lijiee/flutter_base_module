@@ -1,3 +1,9 @@
+///***********************************************///
+/// Name:      CheckUtils
+/// Desc:      校验类
+/// Author:    lijiee
+/// Date:      2022/8/12 14:11
+///**********************************************///
 
 class CheckUtils{
   bool isPhone(String value) {

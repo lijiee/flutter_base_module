@@ -1,7 +1,7 @@
 name: base_module
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/lijiee/flutter_base_module.git
 
 environment:
   sdk: ">=2.17.3 <3.0.0"

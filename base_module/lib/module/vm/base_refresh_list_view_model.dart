@@ -3,7 +3,9 @@ import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 ///***********************************************///
 /// Name:      BaseRefreshListViewModel
-/// Desc:      支持上拉加载，下拉刷新ViewModel
+/// Desc:      支持下拉刷新，上拉加载更多
+/// Author:    lijiee
+/// Date:      2022/8/12 14:11
 ///**********************************************///
 
 abstract class BaseRefreshListViewModel<T> extends BaseViewModel{

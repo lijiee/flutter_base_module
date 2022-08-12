@@ -1,4 +1,11 @@
 import 'dart:async';
+///***********************************************///
+/// Name:      TimerUtil
+/// Desc:      倒计时
+/// Author:    lijiee
+/// Date:      2022/8/12 14:11
+///**********************************************///
+
 
 typedef OnTimerTickCallback = void Function(int millisUntilFinished);
 

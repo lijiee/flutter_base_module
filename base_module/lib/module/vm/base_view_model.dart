@@ -4,8 +4,12 @@ import 'package:get/get.dart';
 
 ///***********************************************///
 /// Name:      BaseViewModel
-/// Desc:      所以ViewModel的基类
+/// Desc:      基础类
+/// Author:    lijiee
+/// Date:      2022/8/12 14:13
 ///**********************************************///
+
+
 abstract class BaseViewModel extends GetxController {
   static const String tag = "[BaseViewModel]'";
   bool _disposed = false;

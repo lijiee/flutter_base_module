@@ -1,5 +1,11 @@
 import 'package:flutter/widgets.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
+///***********************************************///
+/// Name:      RefresherFooter
+/// Desc:      刷新头部UI
+/// Author:    lijiee
+/// Date:      2022/8/12 14:13
+///**********************************************///
 
 class RefresherFooter extends StatelessWidget {
   const RefresherFooter({Key? key}) : super(key: key);
@@ -13,6 +19,12 @@ class RefresherFooter extends StatelessWidget {
     );
   }
 }
+///***********************************************///
+/// Name:      RefresherHeader
+/// Desc:      刷新底部UI
+/// Author:    lijiee
+/// Date:      2022/8/12 14:13
+///**********************************************///
 
 class RefresherHeader extends StatelessWidget {
   const RefresherHeader({Key? key}) : super(key: key);
@@ -28,8 +40,13 @@ class RefresherHeader extends StatelessWidget {
     );
   }
 }
+///***********************************************///
+/// Name:      CNRefreshString
+/// Desc:      刷新中文设置
+/// Author:    lijiee
+/// Date:      2022/8/12 14:14
+///**********************************************///
 
-/// 中文
 class CNRefreshString {
   static const String canLoadingText = "松手开始加载数据";
 

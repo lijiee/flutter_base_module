@@ -1,11 +1,13 @@
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 import 'base_view_model.dart';
-
 ///***********************************************///
 /// Name:      BaseRefreshViewModel
-/// Desc:      普通页面的基础ViewModel类
+/// Desc:      支持下拉刷新
+/// Author:    lijiee
+/// Date:      2022/8/12 14:12
 ///**********************************************///
+
 abstract class BaseRefreshViewModel<T> extends BaseViewModel {
   /// 页面数据
   T? data;
